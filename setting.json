@@ -1,7 +1,7 @@
 {
     "global_settings":{
-        "data_path":"/content/CMUA-Watermark/data/img_align_celeba",
-        "attr_path":"/content/CMUA-Watermark/data/list_attr_celeba.txt",
+        "data_path":"/content/data/img_align_celeba",
+        "attr_path":"/content/data/list_attr_celeba.txt",
         "results_path":"/content/data/huanghao/disrupting-deepfakes-results/",
         "img_size":256,
         "num_test":128,
