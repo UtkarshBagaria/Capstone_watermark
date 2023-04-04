@@ -24,7 +24,7 @@ from attacks import LinfPGDAttack
 
 def prepare_HiSD():
     device = 'cuda:0' 
-    config = get_config('HiSD/configs/celeba-hq_256.yaml')
+    config = get_config('content/CMUA-Watermark/HiSD/configs/celeba-hq_256.yaml')
     noise_dim = config['noise_dim']
     image_size = config['new_size']
     checkpoint = 'HiSD/gen_00600000.pt'
